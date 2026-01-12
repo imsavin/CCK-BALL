@@ -5,6 +5,7 @@
  */
  
 #include "cck_ball.dtsi"
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &default_transform {
     col-offset = <6>;
@@ -58,6 +59,9 @@
 	cpi = <1200>;
         scroll-layers = <3>;
         snipe-layers = <4>;
+	evt-type = <INPUT_EV_REL>;
+	x-input-code = <INPUT_REL_X>;
+	y-input-code = <INPUT_REL_Y>;
       // automouse-layer = <3>;
     };
 };
