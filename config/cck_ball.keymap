@@ -58,19 +58,19 @@
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp DELETE  &kp SPACE  &mo 1   &mo 2   &kp SPACE  &kp SQT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp MB4 MB5>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp MB4 MB5 >;
         };
 
         F_layers {
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7     &kp F8  &kp MINUS  &kp EQL  &kp F11
-&kp TILDE    &none   &none   &none   &none   &trans  &trans      &trnas      &trans   &kp F9  &kp F10   &trans
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trnas  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans   &trans      &trans      &trans  &trans  &kp PG_UP    &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCKL  &kp HOME  &kp PG_DN   &kp END
+&kp F12 	&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6 	   &kp F7     &kp F8     &kp MINUS &kp EQL   &kp F11
+&kp TILDE 	&trans 	&trans 	&trans  &trans  &trans  &trans     &trans     &trans     &kp F9    &kp F10   &trans
+&trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans    &trans
+&trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PG_UP &trans
+&trans   	&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCKL  &kp HOME  &kp PG_DN &kp END
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp MB4 MB5>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp MB4 MB5 >;
         };
 
         BT_layers {
