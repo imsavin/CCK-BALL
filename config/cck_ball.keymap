@@ -67,7 +67,7 @@
 &kp TILDE 	&trans 	&trans 	&trans  &trans  &trans  &trans     &trans     &trans     &kp F9    &kp F10   &trans
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans    &trans
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PG_UP &trans
-&trans   	&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCKL  &kp HOME  &kp PG_DN &kp END
+&trans   	&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MB3  &mkp RCKL  &kp HOME  &kp PG_DN &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp MB4 MB5 >;
