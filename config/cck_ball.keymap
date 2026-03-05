@@ -75,7 +75,7 @@
 &kp TILDE 	&trans 	&trans 	&trans  &trans  &trans  &trans     &trans     &trans     &kp F9    &kp F10   &kp PIPE
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans    &trans
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PG_UP &kp BSLH
-&trans   	&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCKL  &kp HOME  &kp PG_DN &kp END
+&trans   	&trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp HOME  &kp PG_DN &kp END
             >;
 
             sensor-bindings = <&volume_encoder>, <&scroll_vertical_encoder>;
