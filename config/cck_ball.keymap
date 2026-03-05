@@ -32,7 +32,7 @@
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-        tap-ms = <100>;
+        tap-ms = <60>;
     };
 
     // Left and right scroll encoder behavior
@@ -72,7 +72,7 @@
         F_layers {
             bindings = <
 &kp F12 	&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6 	   &kp F7     &kp F8     &kp MINUS &kp EQL   &kp F11
-&kp TILDE 	&trans 	&trans 	&trans  &trans  &trans  &trans     &trans     &trans     &kp F9    &kp F10   &kp PIPE
+&kp GRAVE 	&trans 	&trans 	&trans  &trans  &trans  &trans     &trans     &trans     &kp F9    &kp F10   &kp NUBS
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans    &trans
 &trans   	&trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans    &kp PG_UP &kp BSLH
 &trans   	&trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &kp HOME  &kp PG_DN &kp END
