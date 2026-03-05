@@ -58,7 +58,8 @@
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp DELETE  &kp SPACE  &mo 1   &mo 2   &kp SPACE  &kp SQT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp SCRL_UP SCRL_DOWN  >;
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_mkp SCRL_UP SCRL_DOWN  >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&scroll_vertical_encoder>;
         };
 
         F_layers {
@@ -70,7 +71,7 @@
 &trans   	&trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCKL  &kp HOME  &kp PG_DN &kp END
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp SCRL_UP SCRL_DOWN >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&scroll_vertical_encoder>;
         };
 
         BT_layers {
