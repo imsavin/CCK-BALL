@@ -1,4 +1,11 @@
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main-zmk_0.3
+    tags:
+      - "*-zmk_*"
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
